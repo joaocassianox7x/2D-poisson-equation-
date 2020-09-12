@@ -17,14 +17,13 @@ The Laplace operator for two dimentions:
 
 In the discrete domain "x" and "y" become "i" and "j" (<img src="/tex/a514cb4ecbeeadb2ec506d6853cc0da7.svg?invert_in_darkmode&sanitize=true" align=middle width=101.45938274999999pt height=24.65753399999998pt/>) and also in my code "<img src="/tex/d2228dcd964eb02fa342af3116b4ac2b.svg?invert_in_darkmode&sanitize=true" align=middle width=92.69005514999999pt height=22.831056599999986pt/>", so the above equation become:
 
-![Image of Grid](https://github.com/joaocassianox7x/HPC_POISSON/tree/master/pictures/grid.png)
-<img src="pictures/grid.jpg" width=400 />
+![Image of Grid](pictures/grid.png)
 
 <p align="center"><img src="/tex/7541697d815f4cacd8c30e4105181b15.svg?invert_in_darkmode&sanitize=true" align=middle width=713.60179605pt height=33.81208709999999pt/></p>
 
 So we can use the above equation as a matrix, but here we have a real big matrix, because for each <img src="/tex/5bee78fa60ead6227f0532f06ee2519f.svg?invert_in_darkmode&sanitize=true" align=middle width=127.50103079999998pt height=24.65753399999998pt/> we have <img src="/tex/3f629b41d66f9863c225a4879bf22093.svg?invert_in_darkmode&sanitize=true" align=middle width=26.30529494999999pt height=22.831056599999986pt/> <img src="/tex/deceeaf6940a8c7a5a02373728002b0f.svg?invert_in_darkmode&sanitize=true" align=middle width=8.649225749999989pt height=14.15524440000002pt/> so with we want to solve a NxN grid our matrix will have dimension <img src="/tex/4c87ee198ded31321f89b44a38a0ad5a.svg?invert_in_darkmode&sanitize=true" align=middle width=21.552516149999988pt height=26.76175259999998pt/>. So that's the reason behind the use of Sparse matrix. 
 
-![Image of Matrix](https://github.com/joaocassianox7x/HPC_POISSON/tree/master/pictures/sparse_matrix.jpeg)
+![Image of Matrix](pictures/sparse_matrix.jpeg)
 
 
 # PDE
