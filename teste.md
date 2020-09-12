@@ -1,1 +1,6 @@
-<img src="/tex/a1338f41af1306288a9306d9f62a0137.svg?invert_in_darkmode&sanitize=true" align=middle width=56.18660024999999pt height=26.76175259999998pt/>
+A integral mais trivial possível é:
+
+\begin(equations*)
+{
+<img src="/tex/0762641776646704eb22713dcd16f99a.svg?invert_in_darkmode&sanitize=true" align=middle width=48.41897114999998pt height=26.76175259999998pt/>
+}
