@@ -5,7 +5,7 @@ The code is able to solve the poisson's equation for "x" and "y" with time depen
     \item PDE;
 \end{itemize}
 
-\section{Packages}
+# PACKAGES
 I used:
 \begin{itemize}
     \item Armadillo: for sparse matrix construction and system solver;
