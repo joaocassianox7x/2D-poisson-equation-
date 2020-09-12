@@ -1,6 +1,7 @@
 A integral mais trivial possível é:
 
-\begin(equations*)
-{
-$\int x^2 dx$
-}
+\begin{equation}
+    \int(x^2dx)
+\end{equation}
+
+
