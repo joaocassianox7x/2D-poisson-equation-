@@ -1,3 +1,5 @@
+# Considerations
+
 The code is able to solve the poisson's equation for "x" and "y" with time dependency with Neumann Boundary Condition. The README summary will be show below:
 <p align="center"><img src="/tex/be63886edc93d55af260a77763eaf16a.svg?invert_in_darkmode&sanitize=true" align=middle width=327.9004575pt height=113.24201624999999pt/></p>
 
@@ -31,3 +33,5 @@ The Poisson's equation is well know:
  
 Notice that we need to solve one system for each time step, also since we already have the vector "<img src="/tex/26c10cb46001fc4981b80a871eaccbd0.svg?invert_in_darkmode&sanitize=true" align=middle width=27.416429699999988pt height=14.15524440000002pt/>" and the matrix "<img src="/tex/5e895dd204708dc9847f42fa146f280e.svg?invert_in_darkmode&sanitize=true" align=middle width=20.25121889999999pt height=26.76175259999998pt/>" and "<img src="/tex/afdfc127ee67a9f3feef38c0ce6c69d2.svg?invert_in_darkmode&sanitize=true" align=middle width=26.965532549999992pt height=22.831056599999986pt/>" in unknow we have a problem like "<img src="/tex/70681e99f542745bf6a0c56bd4600b39.svg?invert_in_darkmode&sanitize=true" align=middle width=50.69621369999999pt height=22.831056599999986pt/>". For that I used the routine "spsolve" of the Armadillo's library.
 \end{document}
+
+
