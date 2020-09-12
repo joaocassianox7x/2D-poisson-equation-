@@ -1,6 +1,5 @@
 A integral mais trivial possível é:
 
-\begin(equations*)
-{
-<img src="/tex/0762641776646704eb22713dcd16f99a.svg?invert_in_darkmode&sanitize=true" align=middle width=48.41897114999998pt height=26.76175259999998pt/>
-}
+<p align="center"><img src="/tex/c0fab150d41e30cd372c49f923744702.svg?invert_in_darkmode&sanitize=true" align=middle width=382.1090691pt height=36.53007435pt/></p>
+
+
