@@ -29,7 +29,6 @@ The Laplace operator for two dimentions:
 
 In the discrete domain "x" and "y" become "i" and "j" ($f(x,y) -> f_{ij}$) and also in my code "$dx = dy = \Delta$", so the above equation become:
 
-![Image of Grid](https://github.com/joaocassianox7x/HPC_POISSON/tree/master/pictures/grid.png)
 ![Image of Grid](pictures/grid.png)
 
 \begin{equation*}
@@ -38,7 +37,7 @@ In the discrete domain "x" and "y" become "i" and "j" ($f(x,y) -> f_{ij}$) and a
 
 So we can use the above equation as a matrix, but here we have a real big matrix, because for each $i = m (m=[0,n))$ we have $"n"$ $y$ so with we want to solve a NxN grid our matrix will have dimension $N^2$. So that's the reason behind the use of Sparse matrix. 
 
-![Image of Matrix](https://github.com/joaocassianox7x/HPC_POISSON/tree/master/pictures/sparse_matrix.jpeg)
+![Image of Matrix](pictures/sparse_matrix.jpeg)
 
 
 # PDE
