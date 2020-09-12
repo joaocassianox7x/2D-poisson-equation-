@@ -17,6 +17,7 @@ I used:
     \item Math: basic math librari for constants and basic functions (exponencial, pi, euler's constant ...)
 \end{itemize}
 
+# Basic Constants
 
 
 # 2-D Laplacian in Finite-Difference Method
@@ -29,7 +30,7 @@ The Laplace operator for two dimentions:
 In the discrete domain "x" and "y" become "i" and "j" ($f(x,y) -> f_{ij}$) and also in my code "$dx = dy = \Delta$", so the above equation become:
 
 ![Image of Grid](https://github.com/joaocassianox7x/HPC_POISSON/tree/master/pictures/grid.png)
-
+<img src="pictures/grid.jpg" width=400 />
 
 \begin{equation*}
     \nabla ^2 f(x,y) = \frac{f_{i-1,j}+f_{i+1,j}-2f_{i,j}}{\Delta ^2} + \frac{f_{i,j-1}+f_{i,j+1}-2f_{i,j}}{\Delta ^2} = \frac{f_{i-1,j}+f_{i+1,j}+f_{i,j-1}+f_{i,j+1}-4f_{i,j}}{\Delta ^2}
