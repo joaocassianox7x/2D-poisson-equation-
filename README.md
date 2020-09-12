@@ -1,14 +1,12 @@
-
-
 The code is able to solve the poisson's equation for "x" and "y" with time dependency with Neumann Boundary Condition. The README summary will be show below:
 <p align="center"><img src="/tex/be63886edc93d55af260a77763eaf16a.svg?invert_in_darkmode&sanitize=true" align=middle width=327.9004575pt height=113.24201624999999pt/></p>
 
 # PACKAGES
 I used:
-<p align="center"><img src="/tex/801f63865fe5c36ba7fbd72555081c32.svg?invert_in_darkmode&sanitize=true" align=middle width=675.61696125pt height=153.60730934999998pt/></p>
+<p align="center"><img src="/tex/08f7536c81a0be777ed90b629e04fe54.svg?invert_in_darkmode&sanitize=true" align=middle width=675.61696125pt height=185.57078264999998pt/></p>
 
-# Basic Constants
-
+# Basic Constants and Considerations
+The code use a square latice where "x" and "y" are in the close interval [0,a], the charge distribution is placed in the function with that name, the "time_sol" function solve the hole system for each time step for that step you need to create two files ("charge" and "poisson") in the first one we want to save the charge distribution to plot in the Python file the second one is the most important and save the PDE solution, the file have a number with them (filen) where "n" is the number of the timestep with that configuration.
 
 # 2-D Laplacian in Finite-Difference Method
 The Laplace operator for two dimentions:
