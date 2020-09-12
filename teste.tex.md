@@ -1,7 +1,7 @@
 The code is able to solve the poisson's equation for "x" and "y" with time dependency with Neumann Boundary Condition. The README summary will be show below:
 \begin{itemize}
     \item Packages;
-    \item 2-D Laplacian in Finite-DIfference method;;
+    \item 2-D Laplacian in Finite-DIfference method;
     \item PDE;
 \end{itemize}
 
@@ -13,3 +13,21 @@ I used:
     \item LAPACK and BLAS: this both libraries are not really used inside the code, but Armadillo use them as back-end libraries;
     \item Math: basic math librari for constants and basic functions (exponencial, pi, euler's constant ...)
 \end{itemize}
+
+
+
+# 2D LAPLACIAN
+
+The Laplace operator for two dimentions:
+
+\begin{equation*}
+    \nabla ^2 f(x,y) = \frac{d^2f(x,y)}{dx^2} + \frac{d^2f(x,y)}{dy^2} 
+\end{equation*}
+
+In the discrete domain "x" and "y" become "i" and "j" ($f(x,y) -> f_{ij}$) and also in my code "$dx = dy = \Delta$", so the above equation become:
+
+\begin{equation*}
+    \nabla ^2 f(x,y) = \frac{f_{i-1,j}+f_{i+1,j}-2f_{i,j}}{\Delta ^2} + \frac{f_{i,j-1}+f_{i,j+1}-2f_{i,j}}{\Delta ^2} = \frac{f_{i-1,j}+f_{i+1,j}+f_{i,j-1}+f_{i,j+1}-4f_{i,j}}{\Delta ^2}
+\end{equation*}
+
+
