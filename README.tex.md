@@ -1,5 +1,3 @@
-
-
 The code is able to solve the poisson's equation for "x" and "y" with time dependency with Neumann Boundary Condition. The README summary will be show below:
 \begin{itemize}
     \item Packages;
