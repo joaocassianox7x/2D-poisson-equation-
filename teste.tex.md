@@ -15,10 +15,11 @@ I used:
     \item OPENMP: Armadillo is able to work with OPENMP and improve the code time execution;
     \item LAPACK and BLAS: this both libraries are not really used inside the code, but Armadillo use them as back-end libraries;
     \item Math: basic math librari for constants and basic functions (exponencial, pi, euler's constant ...)
+    \item SuperLU : only if you want to use big sparse matrices;
 \end{itemize}
 
-# Basic Constants
-
+# Basic Constants and Considerations
+The code use a square latice where "x" and "y" are in the close interval [0,a], the charge distribution is placed in the function with that name, the "time_sol" function solve the hole system for each time step for that step you need to create two files ("charge" and "poisson") in the first one we want to save the charge distribution to plot in the Python file the second one is the most important and save the PDE solution, the file have a number with them (filen) where "n" is the number of the timestep with that configuration.
 
 # 2-D Laplacian in Finite-Difference Method
 The Laplace operator for two dimentions:
