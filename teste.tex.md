@@ -28,14 +28,16 @@ The Laplace operator for two dimentions:
 
 In the discrete domain "x" and "y" become "i" and "j" ($f(x,y) -> f_{ij}$) and also in my code "$dx = dy = \Delta$", so the above equation become:
 
+![Image of Grid](https://octodex.github.com/images/grid.png)
+
+
 \begin{equation*}
     \nabla ^2 f(x,y) = \frac{f_{i-1,j}+f_{i+1,j}-2f_{i,j}}{\Delta ^2} + \frac{f_{i,j-1}+f_{i,j+1}-2f_{i,j}}{\Delta ^2} = \frac{f_{i-1,j}+f_{i+1,j}+f_{i,j-1}+f_{i,j+1}-4f_{i,j}}{\Delta ^2}
 \end{equation*}
 
 So we can use the above equation as a matrix, but here we have a real big matrix, because for each $i = m (m=[0,n))$ we have $"n"$ $y$ so with we want to solve a NxN grid our matrix will have dimension $N^2$. So that's the reason behind the use of Sparse matrix. 
 
-figura Matrix poisson
-
+![Image of Matrix](https://octodex.github.com/images/sparse_matrix.png)
 
 
 # PDE
