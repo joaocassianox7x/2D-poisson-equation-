@@ -46,4 +46,4 @@ Poisson's equation is well-known:
     \nabla ^2 f_{ij,t} = \rho_{ij,t}
 \end{equation*}
  
-Notice that we need to solve one system for each time step. Also, since we already have the vector "$\rho_{ij,t}$" and the matrix "$\nabla ^2$", but "$f_{ij,t}$" is unknow we have a problem like "$Ax = b$". For that I used the routine "spsolve" from Armadillo's library.
+Notice that we need to solve one system for each time step. Also, since we already have the vector "$\rho_{ij,t}$" and the matrix "$\nabla ^2$", but "$f_{ij,t}$" is unknown we have a problem like "$Ax = b$". For that I used the routine "spsolve" from Armadillo's library.
